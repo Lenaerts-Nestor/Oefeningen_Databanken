@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Oefening1</title>
+  <title>04</title>
   <style>
 html {
 line-height: 1.5;
@@ -164,16 +164,40 @@ vertical-align: middle;
   <![endif]-->
 </head>
 <body>
-<p>Maak eerst een map “Databanken Intro” met daarin een map “Labo
-1”.</p>
-<p>Op DigitAP staan drie “debug scripts”. Deze bevatten allemaal enkele
-fouten. Corrigeer de fouten in elke file en sla de files op onder:</p>
-<ul>
-<li>Databanken Intro/Labo 1/01.sql</li>
-<li>Databanken Intro/Labo 1/02.sql</li>
-<li>Databanken Intro/Labo 1/03.sql</li>
-</ul>
-<p>Zorg dat de files correct uitvoeren en dat je in de tabellen het
-gewenste resultaat kan zien.</p>
+<p>Maak een view <code>TakenVerdeling</code>, die aangeeft wie welke
+taak uitvoert. Taken die niet toegewezen zijn en leden zonder taken
+staan hier ook in.</p>
+<p>Voorbeelduitvoer van een <code>SELECT</code>:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Voornaam</th>
+<th>Omschrijving</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yannick</td>
+<td>frisdrank meebrengen</td>
+</tr>
+<tr class="even">
+<td>Bavo</td>
+<td>bestek voorzien</td>
+</tr>
+<tr class="odd">
+<td>Max</td>
+<td>aardappelsla maken</td>
+</tr>
+<tr class="even">
+  <td>Herve</td>
+  <td>geen taak toegewezen</td>
+  </tr>
+<tr class="even">
+<td>Taak niet toegewezen</td>
+<td>papieren bordjes meebrengen</td>
+</tr>
+</tbody>
+</table>
+<p>Noem je script <code>4.sql</code>.</p>
 </body>
 </html>
